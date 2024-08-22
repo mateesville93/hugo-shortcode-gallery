@@ -60,7 +60,7 @@ Tip: If your project itself is version controlled using git, you may want to hav
 Here is an usage example:
 
 ```
-{{< gallery match="images/*" sortOrder="desc" rowHeight="150" margins="5" thumbnailResizeOptions="600x600 q90 Lanczos" showExif=true previewType="blur" embedPreview=true loadJQuery=true >}}
+{{< gallery match="images/*" sortOrder="desc" rowHeight="150" margins="5" thumbnailResizeOptions="600x600 q90 Lanczos" showExif=false previewType="blur" embedPreview=true loadJQuery=true >}}
 ```
 
 This shortcode will generate a gallery containing all images of the folder *images*.
@@ -165,7 +165,7 @@ In both `content/gallery/index.md` and `content/news/some_news/index.md` you can
     rowHeight="150"
     margins="5"
     thumbnailResizeOptions="600x600 q90 Lanczos"
-    showExif=true
+    showExif=false
     previewType="blur"
     embedPreview=true
     loadJQuery=true
